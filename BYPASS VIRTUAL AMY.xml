@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<netguard>
+  <application>
+    <setting key="subnet" type="boolean" value="false" />
+    <setting key="reload_onconnectivity" type="boolean" value="true" />
+    <setting key="resolve" type="boolean" value="true" />
+    <setting key="disable_on_call" type="boolean" value="false" />
+    <setting key="filter_udp" type="boolean" value="false" />
+    <setting key="dark_theme" type="boolean" value="false" />
+    <setting key="whitelist_roaming" type="boolean" value="false" />
+    <setting key="lockdown_other" type="boolean" value="true" />
+    <setting key="lan" type="boolean" value="false" />
+    <setting key="lockdown" type="boolean" value="false" />
+    <setting key="national_roaming" type="boolean" value="false" />
+    <setting key="pcap_file_size" type="string" value="2" />
+    <setting key="whitelist_other" type="boolean" value="false" />
+    <setting key="hint_fairemail" type="boolean" value="false" />
+    <setting key="unmetered_4g" type="boolean" value="false" />
+    <setting key="hint_push" type="boolean" value="false" />
+    <setting key="pcap_record_size" type="string" value="64" />
+    <setting key="sort" type="string" value="name" />
+    <setting key="version" type="integer" value="2024062001" />
+    <setting key="wifi_homes" type="set" value="" />
+    <setting key="hosts_url" type="string" value="https://www.netguard.me/hosts" />
+    <setting key="install" type="boolean" value="true" />
+    <setting key="use_metered" type="boolean" value="false" />
+    <setting key="nodoze" type="boolean" value="true" />
+    <setting key="stats_frequency" type="string" value="1000" />
+    <setting key="lockdown_wifi" type="boolean" value="true" />
+    <setting key="eu_roaming" type="boolean" value="false" />
+    <setting key="show_top" type="boolean" value="false" />
+    <setting key="show_user" type="boolean" value="true" />
+    <setting key="notify_access" type="boolean" value="false" />
+    <setting key="log_app" type="boolean" value="true" />
+    <setting key="log" type="boolean" value="true" />
+    <setting key="show_stats" type="boolean" value="false" />
+    <setting key="show_system" type="boolean" value="false" />
+    <setting key="enabled" type="boolean" value="false" />
+    <setting key="manage_system" type="boolean" value="false" />
+    <setting key="pcap" type="boolean" value="false" />
+    <setting key="hint_usage" type="boolean" value="false" />
+    <setting key="stats_samples" type="string" value="90" />
+    <setting key="clear_onreload" type="boolean" value="false" />
+    <setting key="screen_other" type="boolean" value="false" />
+    <setting key="initialized" type="boolean" value="true" />
+    <setting key="theme" type="string" value="teal" />
+    <setting key="whitelist_wifi" type="boolean" value="false" />
+    <setting key="unmetered_2g" type="boolean" value="false" />
+    <setting key="use_hosts" type="boolean" value="true" />
+    <setting key="handover" type="boolean" value="false" />
+    <setting key="hint_system" type="boolean" value="false" />
+    <setting key="screen_on" type="boolean" value="true" />
+    <setting key="update_check" type="boolean" value="true" />
+    <setting key="socks5_enabled" type="boolean" value="false" />
+    <setting key="debug_iab" type="boolean" value="false" />
+    <setting key="ip6" type="boolean" value="true" />
+    <setting key="filter" type="boolean" value="true" />
+    <setting key="auto_enable" type="string" value="0" />
+    <setting key="screen_delay" type="string" value="0" />
+    <setting key="watchdog" type="string" value="0" />
+    <setting key="hint_whitelist" type="boolean" value="false" />
+    <setting key="organization" type="boolean" value="true" />
+    <setting key="loglevel" type="string" value="6" />
+    <setting key="screen_wifi" type="boolean" value="false" />
+    <setting key="tethering" type="boolean" value="false" />
+    <setting key="track_usage" type="boolean" value="false" />
+    <setting key="unmetered_3g" type="boolean" value="false" />
+  </application>
+  <wifi />
+  <mobile />
+  <screen_wifi />
+  <screen_other />
+  <roaming>
+    <setting key="com.netease.newspike" type="boolean" value="true" />
+    <setting key="com.amy.virtual.pro" type="boolean" value="true" />
+  </roaming>
+  <lockdown>
+    <setting key="com.netease.newspike" type="boolean" value="true" />
+    <setting key="com.amy.virtual.pro" type="boolean" value="true" />
+  </lockdown>
+  <apply />
+  <notify />
+  <filter>
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="13.248.222.62" dport="443" time="1723212839653" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="18.161.49.13" dport="443" time="1705309983244" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="23.198.104.192" dport="443" time="1705311137693" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="23.210.96.164" dport="443" time="1723146646506" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.124.164.139" dport="4010" time="1705312255853" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.124.204.207" dport="9020" time="1709310806362" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.124.204.207" dport="9021" time="1705381150204" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.126.73.6" dport="9080" time="1723257298025" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.126.73.6" dport="9081" time="1705383561806" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.142.221.235" dport="4110" time="1705310473282" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.142.239.151" dport="4030" time="1705311753913" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.130.186" dport="9020" time="1709315112030" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.130.186" dport="9021" time="1709315468139" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.137.33" dport="9080" time="1705384493005" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.137.33" dport="9081" time="1705383569962" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.185.38" dport="9080" time="1723226122465" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.185.38" dport="9081" time="1705383549885" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.187.29" dport="9080" time="1723222461378" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.187.29" dport="9081" time="1705383525968" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.192.140" dport="9020" time="1705310542554" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.192.140" dport="9021" time="1705383569884" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.143.221.203" dport="4140" time="1705380512421" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.87.159.190" dport="9080" time="1723257285992" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.87.159.190" dport="9081" time="1705381106287" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="34.87.186.106" dport="4080" time="1705382349642" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.198.219.207" dport="9080" time="1723226110443" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.198.219.207" dport="9081" time="1705381142281" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.198.226.62" dport="9020" time="1705384493008" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.198.226.62" dport="9021" time="1709313202276" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.133.108" dport="9080" time="1723257305864" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.133.108" dport="9081" time="1705384473007" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.152.172" dport="4070" time="1705379203001" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.201.242" dport="9080" time="1723258187887" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.201.242" dport="9081" time="1705384440045" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.238.247" dport="9020" time="1705382311563" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.240.238.247" dport="9021" time="1709314182729" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.72.104.232" dport="21308" time="1723261392380" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="35.72.104.232" dport="51315" time="1723261521406" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="76.223.88.1" dport="443" time="1723212849633" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="acsdk.gameyw.easebar.com" dport="443" time="1723272542940" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="api.facebook.com" dport="443" time="1709315519846" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="app-measurement.com" dport="443" time="1723204024032" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="appdump.nie.easebar.com" dport="443" time="1723272236832" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="applog.matrix.easebar.com" dport="443" time="1723209760854" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="audiostatlog.cc.easebar.com" dport="80" time="1723272269276" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="audiostatlog.cc.easebar.com" dport="443" time="1709310808888" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="audiouser.cc.easebar.com" dport="80" time="1709315217001" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="audiouser.cc.easebar.com" dport="443" time="1709310511301" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="b.q.easebar.com" dport="21308" time="1723272562396" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="b.q.easebar.com" dport="51315" time="1723261005311" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="cc.fp.ps.netease.com" dport="443" time="1709310514155" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="cdn-settings.appsflyersdk.com" dport="443" time="1709309978300" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="conversions.appsflyer.com" dport="443" time="1709315519842" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="data-detect.nie.easebar.com" dport="443" time="1723272376796" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="dns.update.easebar.com" dport="443" time="1723272371487" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="drpf-g83naxx1ena.proxima.nie.easebar.com" dport="443" time="1723272385284" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="firebaseinstallations.googleapis.com" dport="443" time="1709315506529" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="firebaseremoteconfig.googleapis.com" dport="443" time="1709311209313" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="g0.gsf.easebar.com" dport="443" time="1723257226730" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="g83naxx1ena.gph.easebar.com" dport="443" time="1723225743468" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="g83naxx1ena.update.easebar.com" dport="443" time="1723203036133" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="gameguardian.net" dport="80" time="1723273172700" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="gcdsdk.appsflyer.com" dport="443" time="1709309982896" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="graph.facebook.com" dport="443" time="1723272588509" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="inapps.appsflyer.com" dport="443" time="1709315520033" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="launches.appsflyer.com" dport="443" time="1709315345255" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="mcount.easebar.com" dport="443" time="1723272246491" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="mgbsdknaeast.matrix.easebar.com" dport="443" time="1723272360534" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="newspike-avatar.fp.ps.easebar.com" dport="443" time="1723206056001" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="nos.gameyw.easebar.com" dport="443" time="1723157408180" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="optsdk.gameyw.easebar.com" dport="443" time="1723257231212" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="protocol.unisdk.easebar.com" dport="443" time="1723203043904" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="s.q.easebar.com" dport="21308" time="1723272304348" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="s.q.easebar.com" dport="51315" time="1723272433372" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="sdk-os.mpsdk.easebar.com" dport="443" time="1723272251075" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="sdkgate.pushv3.easebar.com" dport="25003" time="1723273515003" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="stats.gameguardian.net" dport="80" time="1723203074533" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="translate.mpsdk.easebar.com" dport="443" time="1723203044034" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="unisdk.proxima.nie.easebar.com" dport="443" time="1709309978758" block="0" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="6" daddr="who.nie.easebar.com" dport="443" time="1723272572640" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.164.139" dport="4010" time="1705312251389" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.164.139" dport="4080" time="1705309374747" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.164.139" dport="4160" time="1705307966222" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.164.139" dport="4999" time="1709311943097" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.204.207" dport="4500" time="1705253822638" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.204.207" dport="4501" time="1705253515400" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.204.207" dport="4503" time="1705253515400" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.124.204.207" dport="4513" time="1705308449826" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4050" time="1705312100321" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4090" time="1705253524408" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4110" time="1705260309167" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4120" time="1705309796197" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4130" time="1705297962240" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4140" time="1705289397640" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.130.128" dport="4999" time="1705383149390" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.179.254" dport="4999" time="1709311194992" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.184.32" dport="4150" time="1709311170532" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.184.32" dport="4999" time="1709312174954" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.73.6" dport="5501" time="1705253515400" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.73.6" dport="5502" time="1705256268447" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.73.6" dport="5503" time="1705254335132" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.73.6" dport="5504" time="1705253215461" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.126.73.6" dport="5513" time="1705256431112" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.175.19" dport="4040" time="1709311539896" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.175.19" dport="4170" time="1709311945230" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.175.19" dport="4999" time="1709311194987" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.204.184" dport="4150" time="1705308015901" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.204.184" dport="4999" time="1709312140183" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.221.235" dport="4030" time="1705254432062" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.221.235" dport="4110" time="1705310469614" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.221.235" dport="4120" time="1705312088285" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.221.235" dport="4999" time="1709310811194" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.232.214" dport="4020" time="1705252346645" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.232.214" dport="4050" time="1705254671439" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.232.214" dport="4060" time="1705247848145" block="1" />
+    <rule pkg="com.amy.virtual.pro" version="4" protocol="17" daddr="34.142.232.214" dport="
